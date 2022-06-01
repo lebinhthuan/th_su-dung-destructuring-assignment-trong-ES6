@@ -1,9 +1,8 @@
 
+let marks = {x: 21, y: -34, z: 47 };
 
-function NamesList() {
-    return ["alpha", "beta", "gamma", "delta"]
-}
-let [firstName, secondName] = NamesList();
+const { x, y, z } = marks; // x = 21, y = -34, z = 47
 
-console.log(firstName);//"alpha"
-console.log(secondName);//"beta"
+console.log(x);
+console.log(y);
+console.log(z);
