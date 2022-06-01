@@ -1,11 +1,9 @@
 
-let [firstName, secondName] = ["alpha", "beta", "gamma", "delta"];
+
+function NamesList() {
+    return ["alpha", "beta", "gamma", "delta"]
+}
+let [firstName, secondName] = NamesList();
 
 console.log(firstName);//"alpha"
 console.log(secondName);//"beta"
-
-//After swapping
-[firstName, secondName] = [secondName, firstName]
-
-console.log(firstName);//"beta"
-console.log(secondName);//"alpha"
