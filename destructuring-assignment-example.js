@@ -1,5 +1,4 @@
-let names = ["alpha", "beta", "gamma", "delta"];
-let [firstName, secondName] = names;
 
+let [firstName,,thirdName] = ["alpha", "beta", "gamma", "delta"];
 console.log(firstName);//"alpha"
-console.log(secondName);//"beta"
+console.log(thirdName);//"gamma"
